@@ -74,3 +74,11 @@ li.toc {
 .upLink, .nextLink, .navigation {
     font-size: small;
 }
+
+a { 
+    color: #3E8D9C;
+}
+
+a:hover { 
+    color: #5BC8DC;
+}

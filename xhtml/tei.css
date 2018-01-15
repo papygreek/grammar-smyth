@@ -18,27 +18,24 @@ Free Software Foundation, Inc.,
 
 */
 
-/* ODD */
-@import url("odd.css");
-
 /* main layout */
 
 body.simple {
-   color: #000000;
+   color: #666666;
    background-color: #FFFFFF;
    margin: 10pt;
 }
 
 body{
-   color: #000000;
+   color: #666666;
    background-color: #FFFFFF;
    margin: 0;
    padding:0;
-   font-family: Verdana, Tahoma, Geneva, Arial, Helvetica, sans-serif;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 body.pagetable {
-   color: #000000;
+   color: #666666;
    background-color: #FFFFFF;
 }
 
@@ -691,4 +688,5 @@ span.titlem {
 span.titleu {
 }
 span.titles {
-}
+} 
+
