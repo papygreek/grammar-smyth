@@ -4,13 +4,13 @@ alph-case-dative,body.1_div1.4_div2.18.html#body.1_div1.4_div2.18_div3.9
 alph-case-genitive,body.1_div1.4_div2.18.html#body.1_div1.4_div2.18_div3.6
 alph-case-nominative,body.1_div1.4_div2.8.html#body.1_div1.4_div2.8
 alph-case-vocative,body.1_div1.4_div2.18.html#body.1_div1.4_div2.18_div3.5
-alph-decl,body.1_div1.2_div2.2.html#body.1_div1.2_div2.2
-alph-decl-1st,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.1
-alph-decl-1st_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.1
-alph-decl-2nd,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.2
-alph-decl-2nd_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.1
-alph-decl-3rd,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.5
-alph-decl-3rd_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.2
+alph-declension,body.1_div1.2_div2.2.html#body.1_div1.2_div2.2
+alph-declension-1st,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.1
+alph-declension-1st_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.1
+alph-declension-2nd,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.2
+alph-declension-2nd_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.1
+alph-declension-3rd,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.5
+alph-declension-3rd_adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7_div4.2
 alph-mood,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.4
 alph-mood-imperative,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.7
 alph-mood-indicative,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.6_div4.2
@@ -22,18 +22,18 @@ alph-pers,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9_div3.8
 alph-pers-1st,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9_div3.8
 alph-pers-2nd,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9_div3.8
 alph-pers-3rd,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9_div3.8
-alph-pofs,body.1_div1.2_div2.1.html#body.1_div1.2_div2.1
-alph-pofs-adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7
-alph-pofs-adverb,body.1_div1.2_div2.7.html#body.1_div1.2_div2.7
-alph-pofs-article,body.1_div1.4_div2.16.html#body.1_div1.4_div2.16
-alph-pofs-extra-pronoun,body.1_div1.2_div2.6.html#body.1_div1.2_div2.6
-alph-pofs-noun,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4
-alph-pofs-numeral,body.1_div1.2_div2.8.html#body.1_div1.2_div2.8
-alph-pofs-particle,body.1_div1.4_div2.36.html#body.1_div1.4_div2.36
-alph-pofs-preposition,body.1_div1.4_div2.19.html#body.1_div1.4_div2.19
-alph-pofs-pronoun,body.1_div1.2_div2.6.html#body.1_div1.2_div2.6
-alph-pofs-verb,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9
-alph-pofs-verb_participle,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.8
+alph-part of speech,body.1_div1.2_div2.1.html#body.1_div1.2_div2.1
+alph-part of speech-adjective,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.7
+alph-part of speech-adverb,body.1_div1.2_div2.7.html#body.1_div1.2_div2.7
+alph-part of speech-article,body.1_div1.4_div2.16.html#body.1_div1.4_div2.16
+alph-part of speech-extra-pronoun,body.1_div1.2_div2.6.html#body.1_div1.2_div2.6
+alph-part of speech-noun,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4
+alph-part of speech-numeral,body.1_div1.2_div2.8.html#body.1_div1.2_div2.8
+alph-part of speech-particle,body.1_div1.4_div2.36.html#body.1_div1.4_div2.36
+alph-part of speech-preposition,body.1_div1.4_div2.19.html#body.1_div1.4_div2.19
+alph-part of speech-pronoun,body.1_div1.2_div2.6.html#body.1_div1.2_div2.6
+alph-part of speech-verb,body.1_div1.2_div2.9.html#body.1_div1.2_div2.9
+alph-part of speech-verb_participle,body.1_div1.2_div2.4.html#body.1_div1.2_div2.4_div3.8
 alph-tense,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.9
 alph-tense-aorist,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.9_div4.5_div5.4
 alph-tense-futperfect,body.1_div1.4_div2.20.html#body.1_div1.4_div2.20_div3.9_div4.5_div5.7
