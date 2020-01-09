@@ -181,31 +181,31 @@ h3 {
 
 
 h1.maintitle {
-   margin-left: 100px;
+   margin-left: 0;
    font-family: Arial,Helvetica,sans-serif;
    font-weight: bold;
    bottom: 5px;
 }
 
 h1.title {
-   margin-left: 100px;
+   margin-left: 0;
    font-family: Arial,Helvetica,sans-serif;
    font-weight: bold;
    bottom: 5px;
 }
 
 h2.institution {
-   margin-left: 100px;
+   margin-left: 0;
    font-family: Arial,Helvetica,sans-serif;
 }
 
 h2.department {
-   margin-left: 100px;
+   margin-left: 0;
    font-family: Arial,Helvetica,sans-serif;
 }
 
 h2.subtitle {
-   margin-left: 100px;
+   margin-left: 0;
    font-family: Arial,Helvetica,sans-serif;
    font-weight: bold;
 }
