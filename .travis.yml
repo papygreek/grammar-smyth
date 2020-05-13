@@ -16,4 +16,4 @@ deploy:
   cache_control: max-age=604800
   on:
     repo: alpheios-project/grammar-smyth
-    branch: master
+    branch: production
