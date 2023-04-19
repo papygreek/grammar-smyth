@@ -18,29 +18,10 @@ Free Software Foundation, Inc.,
 
 */
 
-/* main layout */
 
-body.simple {
-   color: #666666;
-   background-color: #FFFFFF;
-   margin: 10pt;
-}
-
-body{
-   color: #666666;
-   background-color: #FFFFFF;
-   margin: 0;
-   padding:0;
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-}
-
-body.pagetable {
-   color: #666666;
-   background-color: #FFFFFF;
-}
 
 /* 3 columns allowed for, or just a right and left */  
-#col1{
+#smyth-main #col1{
    width: 20%;
    background: #FFFFFF;
    margin: 0;
@@ -54,7 +35,7 @@ body.pagetable {
    border-color: red;
 }
 
-#col2{
+#smyth-main #col2{
    background: #FFFFFF;
    color: #333333;
    border-style: solid;
@@ -68,7 +49,7 @@ body.pagetable {
    position : absolute;
 }
 
-#col3{
+#smyth-main #col3{
    width: 24%;
    left: 75%;
    color: #000066;
@@ -83,7 +64,7 @@ body.pagetable {
    float: right;
 }
 
-#lh-col{
+#smyth-main #lh-col{
    width: 16%;
    color: #000000;
    margin-top: 2pt;
@@ -94,7 +75,7 @@ body.pagetable {
    font-weight:normal;
 }
 
-#rh-col{
+#smyth-main #rh-col{
    background-color: #FFFFFF;
    color: #333333;
    margin: 2pt;
@@ -108,11 +89,11 @@ body.pagetable {
 /* now the layers of the header */
 
 /* the main title */
-div.stdheader {
+#smyth-main div.stdheader {
       border-bottom: 1pt solid black;
 }
 
-#hdr{
+#smyth-main #hdr{
    width: auto;
    margin: 0;
    background-repeat : no-repeat;
@@ -120,7 +101,7 @@ div.stdheader {
 }
 
 /* a navigation bar */
-#hdr2{
+#smyth-main #hdr2{
    width: auto;
    color: #000000;
    font-family: Arial,Helvetica,sans-serif;
@@ -133,7 +114,7 @@ div.stdheader {
 }
 
 /* a breadcrumb trail */
-#hdr3{
+#smyth-main #hdr3{
    width: auto;
    color: #000000;
    background-color : #AD06BC;
@@ -146,7 +127,7 @@ div.stdheader {
    font-size: smaller;
 }
 
-.bannerright {
+#smyth-main .bannerright {
    position : absolute;
    right : 5px;
    color: #FFFFFF;
@@ -157,69 +138,11 @@ div.stdheader {
 }
 
 /* section headings */
-#hdr h1 { color: white; }
-h1 {
-   font-weight: bold;
-   font-size: 2em;
-   line-height: 34pt;
-}
-
-h2 {
-   font-size: larger;
-   line-height: 20pt;
-   margin-top: 18pt;
-   font-weight: bold;
-}
-
-h3 {
-   font-size: larger;
-   line-height: 18pt;
-   font-weight: bold;
-   font-style: italic;
-   color: #C63904;
-}
-
-
-h1.maintitle {
-   margin-left: 0;
-   font-family: Arial,Helvetica,sans-serif;
-   font-weight: bold;
-   bottom: 5px;
-}
-
-h1.title {
-   margin-left: 0;
-   font-family: Arial,Helvetica,sans-serif;
-   font-weight: bold;
-   bottom: 5px;
-}
-
-h2.institution {
-   margin-left: 0;
-   font-family: Arial,Helvetica,sans-serif;
-}
-
-h2.department {
-   margin-left: 0;
-   font-family: Arial,Helvetica,sans-serif;
-}
-
-h2.subtitle {
-   margin-left: 0;
-   font-family: Arial,Helvetica,sans-serif;
-   font-weight: bold;
-}
-
-.footer {
-   text-align : center;
-   font-family: Arial,Helvetica,sans-serif; 
-   font-size : 0.8em;
-}
-
+#smyth-main #hdr h1 { color: white; }
 
 
 /* components of the breadcrumb trail */
-a.breadcrumb{
+#smyth-main a.breadcrumb{
    color: #FFFFFF;
    text-decoration: none;
    padding-right : 5px;
@@ -228,13 +151,13 @@ a.breadcrumb{
    font-size : 0.8em;
 }
 
-ul.breadcrumb
+#smyth-main ul.breadcrumb
 {
    display: inline;
    font-size: 1.1em;
 }
 
-li.breadcrumb
+#smyth-main li.breadcrumb
 {
    padding-left: 12px;
    padding-right: 5px;
@@ -244,7 +167,7 @@ li.breadcrumb
    background-repeat: no-repeat;
    background-position: left;
 }
-li.breadcrumb-first
+#smyth-main li.breadcrumb-first
 {
    padding-left: 12px;
    padding-right: 5px;
@@ -255,11 +178,11 @@ li.breadcrumb-first
    background-position: left;
 }
 
-div.breadcrumb {
+#smyth-main div.breadcrumb {
    display: inline;
 }
 
-.skiplinks{
+#smyth-main .skiplinks{
    font-family: arial, sans-serif;
    color: #FFFFFF;
    font-weight : bold;
@@ -268,62 +191,62 @@ div.breadcrumb {
    padding-right : 15px;
 }
 
-.tocontent{
+#smyth-main .tocontent{
    color : #000066;
    display : none;
 }
 
-.hide{
+#smyth-main .hide{
    display : none;
 }
 
-.framestdlink {
+#smyth-main .framestdlink {
    color: red;
    font-size: smaller;
    font-weight: bold;
 }
 
-a:hover
+#smyth-main a:hover
 {
    text-decoration: underline;
 }
 
-a.navbar:link
+#smyth-main a.navbar:link
 {
    color: #FFFFFF;
    text-decoration: none;
 }
 
-a.navbar:visited
+#smyth-main a.navbar:visited
 {
    color: #FFFFFF;
    text-decoration: none;
 }
 
-a.navbar:hover {
+#smyth-main a.navbar:hover {
    color: #FFFFFF;
    text-decoration: underline;
 }
 
 
 /* for use when making pages using a table */
-td.hdr2 {
+#smyth-main td.hdr2 {
    color: #000000;
    background-color : #99CCFF;
 }
-td.hdr3 {
+#smyth-main td.hdr3 {
    background-color : #AD06BC;
    border: 1pt solid #000000;
 }
 
-td.sidetext {
+#smyth-main td.sidetext {
    border-right: 1pt solid #000000;
 }
-td.maintext p {
+#smyth-main td.maintext p {
    font-family: Arial,Helvetica,sans-serif;
 }
 
-td.maintext {
+#smyth-main td.maintext {
    background-color: #FFFFFF;
    font-family: Arial,Helvetica,sans-serif;
    color: #000000;
@@ -331,28 +254,28 @@ td.maintext {
    padding-right: 6pt;
 }
 
-table.wovenodd td,p.wovenodd {
+#smyth-main table.wovenodd td,p.wovenodd {
    background-color: #FFFFFF;
 }
 
 /* an inner <text>, eg inside a <q> */
-div.innertext {
+#smyth-main div.innertext {
    margin: 6pt;
    border: 1pt solid red;
 }
 /* literal code */
 
-div.cdata{
+#smyth-main div.cdata{
  white-space: pre;
 }
 
-div.pre,pre	{ 
+#smyth-main div.pre,pre	{ 
  background-color: #FFFFCC;  
  font-family: monospace ;
  margin: 5px;
 }
 
-div.pre_eg,pre.eg {
+#smyth-main div.pre_eg,pre.eg {
  margin: 5px;
  padding: 5px;
  font-family: monospace ;
@@ -360,85 +283,8 @@ div.pre_eg,pre.eg {
  white-space: pre;
 }
 
-
-/* table of contents */
-ul.toc {list-style: none;}
-li.toc {list-style: none;}
-
-/* table of contents links */
-
-a.inlinetoc:link,a.inlinetoc:visited
-{
-   color: #7A7A7A;
-   font-size: smaller; 
-   text-decoration: none;
-}
-
-a.inlinetoc-this:visited,a.inlinetoc-this:link
-{   
-   font-size: smaller; 
-   color: #000000;
-   font-weight: bold; 
-   text-decoration: underline;
-}
-
-a.inlinetoc-sub:visited,a.inlinetoc-sub:link
-{
-   text-decoration: none;
-   color: #000000;
-   font-weight: normal;
-   font-size: smaller; 
-}
-
-span.toclist{
-   font-size: smaller; 
-   font-family: Arial,Helvetica,sans-serif;
-   font-weight: bold;
-}
-
-p.toclist0 {
-   margin-left: 0.5em; 
-   margin-top: 1pt; 
-   margin-bottom: 3pt; 
-   text-indent: -0.5em;
-   font-size: small;    
-}
-
-p.toclist1 {
-   margin-left: 1em; 
-   margin-top: 1pt; 
-   margin-bottom: 2pt; 
-   text-indent: -0.7em;
-   font-size: small;    
-}
-
-p.toclist2 {
-   margin-left: 1.5em; 
-   text-indent: -1em;
-   font-size: small;    
-}
-
-p.toclist3 {
-   margin-left: 2em; 
-   text-indent: -1.5em;
-   font-size: small;    
-}
-
-span.toclist-this {
-   color: red;
-}
-
-a.toclist:visited,a.toclist:link
-{
-   font-weight: bold; 
-   color: #000000;
-   text-decoration: none;
-}
-
-
-
 /* notes */
-div.noteHeading {
+#smyth-main div.noteHeading {
    margin-top: 9pt;
    border: 0;
    border-top: 1pt;
@@ -447,33 +293,33 @@ div.noteHeading {
    font-size: larger;
    font-weight: bold;
 }
-div.noteBody {
+#smyth-main div.noteBody {
   display:inline;
 }
 
-div.note {
+#smyth-main div.note {
    margin-left: 1em; 
    margin-bottom: 2pt; 
    text-indent: -1em;
 }
 
 /* images */
-img.display {
+#smyth-main img.display {
    margin-top: 10pt;
    margin-bottom: 10pt;
    display: block;
 }
-p.caption {
+#smyth-main p.caption {
    font-style: italic;
 }
 
-.floatimage {
+#smyth-main .floatimage {
    float : left;
    margin-right : 6px;
    vertical-align : top;
 }
 /* specialized divs */
-div.letter {
+#smyth-main #smyth-main div.letter {
    margin-left: 2em;
    margin-right: 2em;
    margin-top: 6pt;
@@ -482,211 +328,196 @@ div.letter {
    border-bottom: 1pt solid green;
 }
 /* title page */
-div.titlePage {
-   border-top: 2pt solid #000000;
-   border-bottom: 2pt solid #000000;
-   padding-top: 6pt;
-   padding-bottom: 6pt;
-   font-size: larger;
-   text-align: center;
+#smyth-main div.titlePage {
+   padding-top:30px;
+   text-align:center;
 }
-div.docImprint {
+#smyth-main div.docImprint {
    font-style: italic;    
 }
-div.docDate {
+#smyth-main div.docDate {
    font-style: italic;    
 }
-div.docTitle {
+#smyth-main div.docTitle {
     font-weight: bold;
 }
-div.docAuthor {
+#smyth-main div.docAuthor {
     font-style: italic;
 }
-
-div.byline {
-}   
-
-div.dateline{
+#smyth-main div.dateline{
    text-align: right;
 }
 /* verse */
-div.lg {
+#smyth-main div.lg {
    margin-left: 10px;
 }
 
-div.centerbold {
+#smyth-main div.centerbold {
     text-align:center;
     font-weight: bold;
 }
-div.center {
+#smyth-main div.center {
     text-align:center;
 }
-div.right {
+#smyth-main div.right {
     text-align:right;
 }
-div.left {
+#smyth-main div.left {
     text-align:left;
 }
-div.l {
+#smyth-main div.l {
     text-align:left;
 }
-p.center {
+#smyth-main p.center {
     text-align:center;
 }
-p.right {
+#smyth-main p.right {
     text-align:right;
 }
-p.left {
+#smyth-main p.left {
     text-align:left;
 }
-div.indent1 {
+#smyth-main div.indent1 {
    margin-left: 1em;
 }
-div.indent2 {
+#smyth-main div.indent2 {
    margin-left: 2em;
 }
-div.indent3 {
+#smyth-main div.indent3 {
    margin-left: 3em;
 }
-div.indent4 {
+#smyth-main div.indent4 {
    margin-left: 4em;
 }
-div.indent5 {
+#smyth-main div.indent5 {
    margin-left: 5em;
 }
-div.indent6 {
+#smyth-main div.indent6 {
    margin-left: 6em;
 }
 /* misc */
-.plain {
+#smyth-main .plain {
    font-weight: bold;
    text-decoration: none;
    font-family: Arial,Helvetica,sans-serif;
    color: #C63904;
 }
 
-p.box {
+#smyth-main p.box {
    border: 1pt solid #000000;
 }
 
-.small {
+#smyth-main .small {
    font-size: small;
 }
 
-td.label {
+#smyth-main td.label {
    font-weight: bold;
    background-color: #AAAAAA;
 }
-tr.label td {
+#smyth-main tr.label td {
    font-weight: bold;
    background-color: #AAAAAA;
 }
 
-span.label {
+#smyth-main span.label {
     font-weight: bold;
 }
 
-h5 {    
+#smyth-main h5 {    
    font-size: 100%;
 }
-h6 {    
+#smyth-main h6 {    
    font-size: 100%;
 }
 
-div.tocFront {
+#smyth-main div.tocFront {
    border-bottom: 1pt solid #000000;
 }
-div.tocBack {
+#smyth-main div.tocBack {
    border-bottom: 1pt solid #000000;
 }
-div.tocBody {
+#smyth-main div.tocBody {
    border-bottom: 1pt solid #000000;
 }
 /* a listBibl rend='labels' */
-div.listBibl {
+#smyth-main div.listBibl {
 	     margin-top: 6pt;
 	     margin-bottom: 6pt;
 }
-div.bibl {
+#smyth-main div.bibl {
    margin-left: 0.5em; 
    text-indent: -0.5em;
 }
-span.biblLabel {
+#smyth-main span.biblLabel {
 	       font-weight: bold;
 	       margin-right: 1em;
 }
 
 /* a <bibl> inside a <cit> */
-div.citbibl {
+#smyth-main div.citbibl {
    text-align:right;
    font-size: smaller;
 }
 /* a <quote> inside a <cit> */
-div.citquote {
-}
 
 /* gloss lists with bold labels */
-dt {
+#smyth-main dt {
    font-weight: bold;
 }
-div.blockquote {
+#smyth-main div.blockquote {
    margin: 10pt;
 }
 
 /* generic <hi> */
-span.hi {
+#smyth-main span.hi {
    font-weight: bold;
 }
 
 /* from drama */
-span.actor {  
+#smyth-main span.actor {  
 	   font-style:italic;
 }
-span.camera {
+#smyth-main span.camera {
  font-style: italic;
 }
-span.caption {
+#smyth-main span.caption {
  font-style: italic;
 }
-span.role {
+#smyth-main span.role {
  font-style: italic;
 }
-span.set {
+#smyth-main span.set {
  font-style: italic;
 }
-span.sound {
+#smyth-main span.sound {
  font-style: italic;
 }
-span.stage {
+#smyth-main span.stage {
  font-style: italic;
 }
-span.tech {
+#smyth-main span.tech {
  font-style: italic;
 }
-span.view {
+#smyth-main span.view {
  font-style: italic;
 }
-span.mentioned {
+#smyth-main span.mentioned {
    font-style: italic;
 }
-span.nextLink {
+#smyth-main span.nextLink {
    font-style: italic;
 }
-span.previousLink {
+#smyth-main span.previousLink {
    font-style: italic;
 }
-span.upLink {
+#smyth-main pan.upLink {
    font-style: italic;
 }
-p, div.p {
+#smyth-main p, #smyth-main div.p {
  margin-top: 0.3em;
 }
 /* bibl */
-span.titlem {
+#smyth-main span.titlem {
     font-style: italic;
 }
-span.titleu {
-}
-span.titles {
-} 
-
